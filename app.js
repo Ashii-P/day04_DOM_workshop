@@ -14,9 +14,17 @@ h2.textContent = `This is a subheading!`;
 body.appendChild(h2);
 
 //confused on this list one
-const list = document.createElement("li");
-list.textContent = "roses " + "lilac " + "tulips ";
-body.appendChild(list);
+const rose = document.createElement("li");
+rose.textContent = `Roses`;
+body.appendChild(rose);
+
+const lilac = document.createElement("li");
+lilac.textContent = `Lilac`;
+body.appendChild(lilac);
+
+const tulips = document.createElement("li");
+tulips.textContent = `Tulips`;
+body.appendChild(tulips);
 
 const p = document.querySelector(`p`);
 p.remove();
